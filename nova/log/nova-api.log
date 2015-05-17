@@ -1,0 +1,379 @@
+2015-04-30 14:00:47.924 22 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2015-04-30 14:00:47.975 22 INFO nova.wsgi [-] ec2 listening on 0.0.0.0:8773
+2015-04-30 14:00:47.975 22 INFO nova.openstack.common.service [-] Starting 8 workers
+2015-04-30 14:00:47.976 22 INFO nova.openstack.common.service [-] Started child 27
+2015-04-30 14:00:47.978 22 INFO nova.openstack.common.service [-] Started child 28
+2015-04-30 14:00:47.980 27 INFO nova.ec2.wsgi.server [-] (27) wsgi starting up on http://0.0.0.0:8773/
+2015-04-30 14:00:47.980 22 INFO nova.openstack.common.service [-] Started child 29
+2015-04-30 14:00:47.982 28 INFO nova.ec2.wsgi.server [-] (28) wsgi starting up on http://0.0.0.0:8773/
+2015-04-30 14:00:47.982 22 INFO nova.openstack.common.service [-] Started child 30
+2015-04-30 14:00:47.984 22 INFO nova.openstack.common.service [-] Started child 31
+2015-04-30 14:00:47.986 30 INFO nova.ec2.wsgi.server [-] (30) wsgi starting up on http://0.0.0.0:8773/
+2015-04-30 14:00:47.986 29 INFO nova.ec2.wsgi.server [-] (29) wsgi starting up on http://0.0.0.0:8773/
+2015-04-30 14:00:47.987 22 INFO nova.openstack.common.service [-] Started child 32
+2015-04-30 14:00:47.988 31 INFO nova.ec2.wsgi.server [-] (31) wsgi starting up on http://0.0.0.0:8773/
+2015-04-30 14:00:47.989 22 INFO nova.openstack.common.service [-] Started child 33
+2015-04-30 14:00:47.991 32 INFO nova.ec2.wsgi.server [-] (32) wsgi starting up on http://0.0.0.0:8773/
+2015-04-30 14:00:47.992 22 INFO nova.openstack.common.service [-] Started child 34
+2015-04-30 14:00:47.992 33 INFO nova.ec2.wsgi.server [-] (33) wsgi starting up on http://0.0.0.0:8773/
+2015-04-30 14:00:47.995 34 INFO nova.ec2.wsgi.server [-] (34) wsgi starting up on http://0.0.0.0:8773/
+2015-04-30 14:00:48.005 22 AUDIT nova.api.openstack.compute.extensions [-] Initializing extension manager.
+2015-04-30 14:00:48.108 22 INFO nova.api.openstack [-] V3 API has been disabled by configuration
+2015-04-30 14:00:48.109 22 AUDIT nova.api.openstack.compute.extensions [-] Initializing extension manager.
+2015-04-30 14:00:48.188 22 INFO nova.api.openstack [-] V3 API has been disabled by configuration
+2015-04-30 14:00:48.189 22 INFO nova.wsgi [-] osapi_compute listening on 0.0.0.0:8774
+2015-04-30 14:00:48.189 22 INFO nova.openstack.common.service [-] Starting 8 workers
+2015-04-30 14:00:48.191 22 INFO nova.openstack.common.service [-] Started child 35
+2015-04-30 14:00:48.193 22 INFO nova.openstack.common.service [-] Started child 36
+2015-04-30 14:00:48.195 22 INFO nova.openstack.common.service [-] Started child 37
+2015-04-30 14:00:48.197 36 INFO nova.osapi_compute.wsgi.server [-] (36) wsgi starting up on http://0.0.0.0:8774/
+2015-04-30 14:00:48.198 22 INFO nova.openstack.common.service [-] Started child 38
+2015-04-30 14:00:48.199 35 INFO nova.osapi_compute.wsgi.server [-] (35) wsgi starting up on http://0.0.0.0:8774/
+2015-04-30 14:00:48.200 22 INFO nova.openstack.common.service [-] Started child 39
+2015-04-30 14:00:48.202 38 INFO nova.osapi_compute.wsgi.server [-] (38) wsgi starting up on http://0.0.0.0:8774/
+2015-04-30 14:00:48.202 22 INFO nova.openstack.common.service [-] Started child 40
+2015-04-30 14:00:48.203 37 INFO nova.osapi_compute.wsgi.server [-] (37) wsgi starting up on http://0.0.0.0:8774/
+2015-04-30 14:00:48.203 39 INFO nova.osapi_compute.wsgi.server [-] (39) wsgi starting up on http://0.0.0.0:8774/
+2015-04-30 14:00:48.205 22 INFO nova.openstack.common.service [-] Started child 41
+2015-04-30 14:00:48.206 40 INFO nova.osapi_compute.wsgi.server [-] (40) wsgi starting up on http://0.0.0.0:8774/
+2015-04-30 14:00:48.207 22 INFO nova.openstack.common.service [-] Started child 42
+2015-04-30 14:00:48.208 41 INFO nova.osapi_compute.wsgi.server [-] (41) wsgi starting up on http://0.0.0.0:8774/
+2015-04-30 14:00:48.209 22 INFO nova.network.driver [-] Loading network driver 'nova.network.linux_net'
+2015-04-30 14:00:48.209 22 INFO nova.openstack.common.lockutils [-] Created lock path: /var/lock/nova
+2015-04-30 14:00:48.210 42 INFO nova.osapi_compute.wsgi.server [-] (42) wsgi starting up on http://0.0.0.0:8774/
+2015-04-30 14:00:51.756 22 CRITICAL nova [-] ProcessExecutionError: Unexpected error while running command.
+Command: iptables-save -c
+Exit code: 1
+Stdout: u''
+Stderr: u'iptables-save v1.4.21: Cannot initialize: Permission denied (you must be root)\n\n'
+2015-04-30 14:00:51.756 22 TRACE nova Traceback (most recent call last):
+2015-04-30 14:00:51.756 22 TRACE nova   File "/usr/bin/nova-api", line 10, in <module>
+2015-04-30 14:00:51.756 22 TRACE nova     sys.exit(main())
+2015-04-30 14:00:51.756 22 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/cmd/api.py", line 55, in main
+2015-04-30 14:00:51.756 22 TRACE nova     server = service.WSGIService(api, use_ssl=should_use_ssl)
+2015-04-30 14:00:51.756 22 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/service.py", line 331, in __init__
+2015-04-30 14:00:51.756 22 TRACE nova     self.manager = self._get_manager()
+2015-04-30 14:00:51.756 22 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/service.py", line 383, in _get_manager
+2015-04-30 14:00:51.756 22 TRACE nova     return manager_class()
+2015-04-30 14:00:51.756 22 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/api/manager.py", line 30, in __init__
+2015-04-30 14:00:51.756 22 TRACE nova     self.network_driver.metadata_accept()
+2015-04-30 14:00:51.756 22 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/network/linux_net.py", line 666, in metadata_accept
+2015-04-30 14:00:51.756 22 TRACE nova     iptables_manager.apply()
+2015-04-30 14:00:51.756 22 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/network/linux_net.py", line 434, in apply
+2015-04-30 14:00:51.756 22 TRACE nova     self._apply()
+2015-04-30 14:00:51.756 22 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/openstack/common/lockutils.py", line 272, in inner
+2015-04-30 14:00:51.756 22 TRACE nova     return f(*args, **kwargs)
+2015-04-30 14:00:51.756 22 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/network/linux_net.py", line 454, in _apply
+2015-04-30 14:00:51.756 22 TRACE nova     attempts=5)
+2015-04-30 14:00:51.756 22 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/network/linux_net.py", line 1228, in _execute
+2015-04-30 14:00:51.756 22 TRACE nova     return utils.execute(*cmd, **kwargs)
+2015-04-30 14:00:51.756 22 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/utils.py", line 163, in execute
+2015-04-30 14:00:51.756 22 TRACE nova     return processutils.execute(*cmd, **kwargs)
+2015-04-30 14:00:51.756 22 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/openstack/common/processutils.py", line 203, in execute
+2015-04-30 14:00:51.756 22 TRACE nova     cmd=sanitized_cmd)
+2015-04-30 14:00:51.756 22 TRACE nova ProcessExecutionError: Unexpected error while running command.
+2015-04-30 14:00:51.756 22 TRACE nova Command: iptables-save -c
+2015-04-30 14:00:51.756 22 TRACE nova Exit code: 1
+2015-04-30 14:00:51.756 22 TRACE nova Stdout: u''
+2015-04-30 14:00:51.756 22 TRACE nova Stderr: u'iptables-save v1.4.21: Cannot initialize: Permission denied (you must be root)\n\n'
+2015-04-30 14:00:51.756 22 TRACE nova 
+2015-04-30 14:00:51.825 39 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.825 31 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.825 30 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.825 27 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.825 28 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.825 40 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.825 32 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.826 30 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.825 33 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.826 39 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.825 29 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.826 27 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.825 36 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.826 34 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.825 35 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.826 38 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.826 27 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.826 33 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.826 30 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.826 34 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.826 29 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.827 40 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.827 33 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.827 29 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.826 31 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.827 40 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.827 38 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.827 36 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.828 38 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.828 36 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.828 32 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.828 28 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.828 39 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.828 35 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.829 32 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.829 34 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.826 42 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.826 41 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.826 37 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-04-30 14:00:51.829 28 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.829 41 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.829 37 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.829 31 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.830 41 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.830 37 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.830 35 INFO nova.wsgi [-] WSGI server has stopped.
+2015-04-30 14:00:51.832 42 INFO nova.wsgi [-] Stopping WSGI server.
+2015-04-30 14:00:51.833 42 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:19.319 52 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2015-05-01 14:18:19.357 52 INFO nova.wsgi [-] ec2 listening on 0.0.0.0:8773
+2015-05-01 14:18:19.357 52 INFO nova.openstack.common.service [-] Starting 8 workers
+2015-05-01 14:18:19.358 52 INFO nova.openstack.common.service [-] Started child 57
+2015-05-01 14:18:19.361 52 INFO nova.openstack.common.service [-] Started child 58
+2015-05-01 14:18:19.362 57 INFO nova.ec2.wsgi.server [-] (57) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:18:19.363 52 INFO nova.openstack.common.service [-] Started child 59
+2015-05-01 14:18:19.366 58 INFO nova.ec2.wsgi.server [-] (58) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:18:19.366 52 INFO nova.openstack.common.service [-] Started child 60
+2015-05-01 14:18:19.367 59 INFO nova.ec2.wsgi.server [-] (59) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:18:19.368 52 INFO nova.openstack.common.service [-] Started child 61
+2015-05-01 14:18:19.370 60 INFO nova.ec2.wsgi.server [-] (60) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:18:19.371 52 INFO nova.openstack.common.service [-] Started child 62
+2015-05-01 14:18:19.372 61 INFO nova.ec2.wsgi.server [-] (61) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:18:19.373 52 INFO nova.openstack.common.service [-] Started child 63
+2015-05-01 14:18:19.375 62 INFO nova.ec2.wsgi.server [-] (62) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:18:19.376 52 INFO nova.openstack.common.service [-] Started child 64
+2015-05-01 14:18:19.377 63 INFO nova.ec2.wsgi.server [-] (63) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:18:19.379 64 INFO nova.ec2.wsgi.server [-] (64) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:18:19.388 52 AUDIT nova.api.openstack.compute.extensions [-] Initializing extension manager.
+2015-05-01 14:18:19.489 52 INFO nova.api.openstack [-] V3 API has been disabled by configuration
+2015-05-01 14:18:19.490 52 AUDIT nova.api.openstack.compute.extensions [-] Initializing extension manager.
+2015-05-01 14:18:19.570 52 INFO nova.api.openstack [-] V3 API has been disabled by configuration
+2015-05-01 14:18:19.571 52 INFO nova.wsgi [-] osapi_compute listening on 0.0.0.0:8774
+2015-05-01 14:18:19.571 52 INFO nova.openstack.common.service [-] Starting 8 workers
+2015-05-01 14:18:19.573 52 INFO nova.openstack.common.service [-] Started child 65
+2015-05-01 14:18:19.575 52 INFO nova.openstack.common.service [-] Started child 66
+2015-05-01 14:18:19.576 65 INFO nova.osapi_compute.wsgi.server [-] (65) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:18:19.578 52 INFO nova.openstack.common.service [-] Started child 67
+2015-05-01 14:18:19.579 66 INFO nova.osapi_compute.wsgi.server [-] (66) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:18:19.581 52 INFO nova.openstack.common.service [-] Started child 68
+2015-05-01 14:18:19.582 67 INFO nova.osapi_compute.wsgi.server [-] (67) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:18:19.584 52 INFO nova.openstack.common.service [-] Started child 69
+2015-05-01 14:18:19.585 68 INFO nova.osapi_compute.wsgi.server [-] (68) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:18:19.586 52 INFO nova.openstack.common.service [-] Started child 70
+2015-05-01 14:18:19.587 69 INFO nova.osapi_compute.wsgi.server [-] (69) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:18:19.589 52 INFO nova.openstack.common.service [-] Started child 71
+2015-05-01 14:18:19.590 70 INFO nova.osapi_compute.wsgi.server [-] (70) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:18:19.592 52 INFO nova.openstack.common.service [-] Started child 72
+2015-05-01 14:18:19.593 71 INFO nova.osapi_compute.wsgi.server [-] (71) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:18:19.594 52 INFO nova.network.driver [-] Loading network driver 'nova.network.linux_net'
+2015-05-01 14:18:19.595 72 INFO nova.osapi_compute.wsgi.server [-] (72) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:18:24.732 52 CRITICAL nova [-] ProcessExecutionError: Unexpected error while running command.
+Command: iptables-save -c
+Exit code: 1
+Stdout: u''
+Stderr: u'iptables-save v1.4.21: Cannot initialize: Permission denied (you must be root)\n\n'
+2015-05-01 14:18:24.732 52 TRACE nova Traceback (most recent call last):
+2015-05-01 14:18:24.732 52 TRACE nova   File "/usr/bin/nova-api", line 10, in <module>
+2015-05-01 14:18:24.732 52 TRACE nova     sys.exit(main())
+2015-05-01 14:18:24.732 52 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/cmd/api.py", line 55, in main
+2015-05-01 14:18:24.732 52 TRACE nova     server = service.WSGIService(api, use_ssl=should_use_ssl)
+2015-05-01 14:18:24.732 52 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/service.py", line 331, in __init__
+2015-05-01 14:18:24.732 52 TRACE nova     self.manager = self._get_manager()
+2015-05-01 14:18:24.732 52 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/service.py", line 383, in _get_manager
+2015-05-01 14:18:24.732 52 TRACE nova     return manager_class()
+2015-05-01 14:18:24.732 52 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/api/manager.py", line 30, in __init__
+2015-05-01 14:18:24.732 52 TRACE nova     self.network_driver.metadata_accept()
+2015-05-01 14:18:24.732 52 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/network/linux_net.py", line 666, in metadata_accept
+2015-05-01 14:18:24.732 52 TRACE nova     iptables_manager.apply()
+2015-05-01 14:18:24.732 52 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/network/linux_net.py", line 434, in apply
+2015-05-01 14:18:24.732 52 TRACE nova     self._apply()
+2015-05-01 14:18:24.732 52 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/openstack/common/lockutils.py", line 272, in inner
+2015-05-01 14:18:24.732 52 TRACE nova     return f(*args, **kwargs)
+2015-05-01 14:18:24.732 52 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/network/linux_net.py", line 454, in _apply
+2015-05-01 14:18:24.732 52 TRACE nova     attempts=5)
+2015-05-01 14:18:24.732 52 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/network/linux_net.py", line 1228, in _execute
+2015-05-01 14:18:24.732 52 TRACE nova     return utils.execute(*cmd, **kwargs)
+2015-05-01 14:18:24.732 52 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/utils.py", line 163, in execute
+2015-05-01 14:18:24.732 52 TRACE nova     return processutils.execute(*cmd, **kwargs)
+2015-05-01 14:18:24.732 52 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/openstack/common/processutils.py", line 203, in execute
+2015-05-01 14:18:24.732 52 TRACE nova     cmd=sanitized_cmd)
+2015-05-01 14:18:24.732 52 TRACE nova ProcessExecutionError: Unexpected error while running command.
+2015-05-01 14:18:24.732 52 TRACE nova Command: iptables-save -c
+2015-05-01 14:18:24.732 52 TRACE nova Exit code: 1
+2015-05-01 14:18:24.732 52 TRACE nova Stdout: u''
+2015-05-01 14:18:24.732 52 TRACE nova Stderr: u'iptables-save v1.4.21: Cannot initialize: Permission denied (you must be root)\n\n'
+2015-05-01 14:18:24.732 52 TRACE nova 
+2015-05-01 14:18:24.799 59 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.799 68 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.799 70 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.800 58 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.800 63 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.800 64 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.799 66 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.800 72 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.799 65 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.799 69 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.800 61 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.800 60 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.800 62 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.801 64 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.801 58 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.800 59 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.801 71 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.801 57 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.801 66 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.801 70 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.801 68 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.800 72 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.800 63 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.800 65 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.802 61 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.801 67 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:18:24.802 69 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.803 61 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.803 70 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.803 72 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.804 57 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.804 60 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.804 69 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.804 62 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.803 63 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.803 65 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.804 68 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.803 66 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.803 59 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.804 71 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.804 67 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:18:24.804 64 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.804 58 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.805 57 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.805 62 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.805 60 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.808 71 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:18:24.808 67 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:08.734 93 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2015-05-01 14:34:08.771 93 INFO nova.wsgi [-] ec2 listening on 0.0.0.0:8773
+2015-05-01 14:34:08.771 93 INFO nova.openstack.common.service [-] Starting 8 workers
+2015-05-01 14:34:08.773 93 INFO nova.openstack.common.service [-] Started child 98
+2015-05-01 14:34:08.775 93 INFO nova.openstack.common.service [-] Started child 99
+2015-05-01 14:34:08.776 98 INFO nova.ec2.wsgi.server [-] (98) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:34:08.777 93 INFO nova.openstack.common.service [-] Started child 100
+2015-05-01 14:34:08.779 99 INFO nova.ec2.wsgi.server [-] (99) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:34:08.780 93 INFO nova.openstack.common.service [-] Started child 101
+2015-05-01 14:34:08.781 100 INFO nova.ec2.wsgi.server [-] (100) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:34:08.782 93 INFO nova.openstack.common.service [-] Started child 102
+2015-05-01 14:34:08.784 101 INFO nova.ec2.wsgi.server [-] (101) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:34:08.785 93 INFO nova.openstack.common.service [-] Started child 103
+2015-05-01 14:34:08.786 102 INFO nova.ec2.wsgi.server [-] (102) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:34:08.787 93 INFO nova.openstack.common.service [-] Started child 104
+2015-05-01 14:34:08.788 103 INFO nova.ec2.wsgi.server [-] (103) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:34:08.790 93 INFO nova.openstack.common.service [-] Started child 105
+2015-05-01 14:34:08.791 104 INFO nova.ec2.wsgi.server [-] (104) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:34:08.793 105 INFO nova.ec2.wsgi.server [-] (105) wsgi starting up on http://0.0.0.0:8773/
+2015-05-01 14:34:08.801 93 AUDIT nova.api.openstack.compute.extensions [-] Initializing extension manager.
+2015-05-01 14:34:08.903 93 INFO nova.api.openstack [-] V3 API has been disabled by configuration
+2015-05-01 14:34:08.904 93 AUDIT nova.api.openstack.compute.extensions [-] Initializing extension manager.
+2015-05-01 14:34:08.983 93 INFO nova.api.openstack [-] V3 API has been disabled by configuration
+2015-05-01 14:34:08.984 93 INFO nova.wsgi [-] osapi_compute listening on 0.0.0.0:8774
+2015-05-01 14:34:08.984 93 INFO nova.openstack.common.service [-] Starting 8 workers
+2015-05-01 14:34:08.985 93 INFO nova.openstack.common.service [-] Started child 106
+2015-05-01 14:34:08.988 93 INFO nova.openstack.common.service [-] Started child 107
+2015-05-01 14:34:08.989 106 INFO nova.osapi_compute.wsgi.server [-] (106) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:34:08.991 93 INFO nova.openstack.common.service [-] Started child 108
+2015-05-01 14:34:08.994 107 INFO nova.osapi_compute.wsgi.server [-] (107) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:34:08.994 93 INFO nova.openstack.common.service [-] Started child 109
+2015-05-01 14:34:08.997 108 INFO nova.osapi_compute.wsgi.server [-] (108) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:34:08.997 93 INFO nova.openstack.common.service [-] Started child 110
+2015-05-01 14:34:08.998 109 INFO nova.osapi_compute.wsgi.server [-] (109) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:34:09.000 93 INFO nova.openstack.common.service [-] Started child 111
+2015-05-01 14:34:09.001 110 INFO nova.osapi_compute.wsgi.server [-] (110) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:34:09.002 93 INFO nova.openstack.common.service [-] Started child 112
+2015-05-01 14:34:09.003 111 INFO nova.osapi_compute.wsgi.server [-] (111) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:34:09.005 93 INFO nova.openstack.common.service [-] Started child 113
+2015-05-01 14:34:09.006 112 INFO nova.osapi_compute.wsgi.server [-] (112) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:34:09.007 93 INFO nova.network.driver [-] Loading network driver 'nova.network.linux_net'
+2015-05-01 14:34:09.009 113 INFO nova.osapi_compute.wsgi.server [-] (113) wsgi starting up on http://0.0.0.0:8774/
+2015-05-01 14:34:15.898 93 CRITICAL nova [-] ProcessExecutionError: Unexpected error while running command.
+Command: iptables-save -c
+Exit code: 1
+Stdout: u''
+Stderr: u'iptables-save v1.4.21: Cannot initialize: Permission denied (you must be root)\n\n'
+2015-05-01 14:34:15.898 93 TRACE nova Traceback (most recent call last):
+2015-05-01 14:34:15.898 93 TRACE nova   File "/usr/bin/nova-api", line 10, in <module>
+2015-05-01 14:34:15.898 93 TRACE nova     sys.exit(main())
+2015-05-01 14:34:15.898 93 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/cmd/api.py", line 55, in main
+2015-05-01 14:34:15.898 93 TRACE nova     server = service.WSGIService(api, use_ssl=should_use_ssl)
+2015-05-01 14:34:15.898 93 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/service.py", line 331, in __init__
+2015-05-01 14:34:15.898 93 TRACE nova     self.manager = self._get_manager()
+2015-05-01 14:34:15.898 93 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/service.py", line 383, in _get_manager
+2015-05-01 14:34:15.898 93 TRACE nova     return manager_class()
+2015-05-01 14:34:15.898 93 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/api/manager.py", line 30, in __init__
+2015-05-01 14:34:15.898 93 TRACE nova     self.network_driver.metadata_accept()
+2015-05-01 14:34:15.898 93 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/network/linux_net.py", line 666, in metadata_accept
+2015-05-01 14:34:15.898 93 TRACE nova     iptables_manager.apply()
+2015-05-01 14:34:15.898 93 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/network/linux_net.py", line 434, in apply
+2015-05-01 14:34:15.898 93 TRACE nova     self._apply()
+2015-05-01 14:34:15.898 93 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/openstack/common/lockutils.py", line 272, in inner
+2015-05-01 14:34:15.898 93 TRACE nova     return f(*args, **kwargs)
+2015-05-01 14:34:15.898 93 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/network/linux_net.py", line 454, in _apply
+2015-05-01 14:34:15.898 93 TRACE nova     attempts=5)
+2015-05-01 14:34:15.898 93 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/network/linux_net.py", line 1228, in _execute
+2015-05-01 14:34:15.898 93 TRACE nova     return utils.execute(*cmd, **kwargs)
+2015-05-01 14:34:15.898 93 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/utils.py", line 163, in execute
+2015-05-01 14:34:15.898 93 TRACE nova     return processutils.execute(*cmd, **kwargs)
+2015-05-01 14:34:15.898 93 TRACE nova   File "/usr/lib/python2.7/dist-packages/nova/openstack/common/processutils.py", line 203, in execute
+2015-05-01 14:34:15.898 93 TRACE nova     cmd=sanitized_cmd)
+2015-05-01 14:34:15.898 93 TRACE nova ProcessExecutionError: Unexpected error while running command.
+2015-05-01 14:34:15.898 93 TRACE nova Command: iptables-save -c
+2015-05-01 14:34:15.898 93 TRACE nova Exit code: 1
+2015-05-01 14:34:15.898 93 TRACE nova Stdout: u''
+2015-05-01 14:34:15.898 93 TRACE nova Stderr: u'iptables-save v1.4.21: Cannot initialize: Permission denied (you must be root)\n\n'
+2015-05-01 14:34:15.898 93 TRACE nova 
+2015-05-01 14:34:15.967 109 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.967 108 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.967 103 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.968 101 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.968 106 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.968 109 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.968 99 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.969 105 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.968 108 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.969 102 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.969 101 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.970 106 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.970 112 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.970 98 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.967 107 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.967 110 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.968 104 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.970 103 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.971 113 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.967 111 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.970 100 INFO nova.openstack.common.service [-] Parent process has died unexpectedly, exiting
+2015-05-01 14:34:15.971 102 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.971 113 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.971 103 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.971 111 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.971 100 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.971 102 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.971 111 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.972 109 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.972 99 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.972 99 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.973 105 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.973 106 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.973 101 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.974 108 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.974 107 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.974 105 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.974 104 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.974 98 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.974 110 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.975 107 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.975 104 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.975 98 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.975 110 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.975 113 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.975 100 INFO nova.wsgi [-] WSGI server has stopped.
+2015-05-01 14:34:15.977 112 INFO nova.wsgi [-] Stopping WSGI server.
+2015-05-01 14:34:15.977 112 INFO nova.wsgi [-] WSGI server has stopped.

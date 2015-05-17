@@ -1,0 +1,562 @@
+2015-04-23 13:04:48.931 15 INFO migrate.versioning.api [-] 0 -> 1... 
+2015-04-23 13:04:48.937 15 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table images
+2015-04-23 13:04:49.170 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:49.171 15 INFO migrate.versioning.api [-] 1 -> 2... 
+2015-04-23 13:04:49.175 15 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table image_properties
+2015-04-23 13:04:49.519 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:49.520 15 INFO migrate.versioning.api [-] 2 -> 3... 
+2015-04-23 13:04:49.574 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:49.574 15 INFO migrate.versioning.api [-] 3 -> 4... 
+2015-04-23 13:04:49.597 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:49.598 15 INFO migrate.versioning.api [-] 4 -> 5... 
+2015-04-23 13:04:49.808 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:49.809 15 INFO migrate.versioning.api [-] 5 -> 6... 
+2015-04-23 13:04:49.853 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:49.854 15 INFO migrate.versioning.api [-] 6 -> 7... 
+2015-04-23 13:04:49.887 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:49.887 15 INFO migrate.versioning.api [-] 7 -> 8... 
+2015-04-23 13:04:49.893 15 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table image_members
+2015-04-23 13:04:50.220 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:50.220 15 INFO migrate.versioning.api [-] 8 -> 9... 
+2015-04-23 13:04:50.287 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:50.287 15 INFO migrate.versioning.api [-] 9 -> 10... 
+2015-04-23 13:04:50.308 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:50.309 15 INFO migrate.versioning.api [-] 10 -> 11... 
+2015-04-23 13:04:50.365 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:50.365 15 INFO migrate.versioning.api [-] 11 -> 12... 
+2015-04-23 13:04:51.232 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:51.233 15 INFO migrate.versioning.api [-] 12 -> 13... 
+2015-04-23 13:04:51.276 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:51.277 15 INFO migrate.versioning.api [-] 13 -> 14... 
+2015-04-23 13:04:51.302 15 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table image_tags
+2015-04-23 13:04:51.510 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:51.511 15 INFO migrate.versioning.api [-] 14 -> 15... 
+2015-04-23 13:04:51.543 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:51.543 15 INFO migrate.versioning.api [-] 15 -> 16... 
+2015-04-23 13:04:51.599 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:51.599 15 INFO migrate.versioning.api [-] 16 -> 17... 
+2015-04-23 13:04:51.640 15 INFO 017_quote_encrypted_swift_credentials [-] 'metadata_encryption_key' was not specified in the config file or a config file was not specified. This means that this migration is a NOOP.
+2015-04-23 13:04:51.654 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:51.655 15 INFO migrate.versioning.api [-] 17 -> 18... 
+2015-04-23 13:04:51.678 15 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table image_locations
+2015-04-23 13:04:51.932 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:51.933 15 INFO migrate.versioning.api [-] 18 -> 19... 
+2015-04-23 13:04:51.976 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:51.977 15 INFO migrate.versioning.api [-] 19 -> 20... 
+2015-04-23 13:04:52.021 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:52.022 15 INFO migrate.versioning.api [-] 20 -> 21... 
+2015-04-23 13:04:52.031 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:52.031 15 INFO migrate.versioning.api [-] 21 -> 22... 
+2015-04-23 13:04:52.142 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:52.143 15 INFO migrate.versioning.api [-] 22 -> 23... 
+2015-04-23 13:04:52.153 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:52.154 15 INFO migrate.versioning.api [-] 23 -> 24... 
+2015-04-23 13:04:52.164 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:52.165 15 INFO migrate.versioning.api [-] 24 -> 25... 
+2015-04-23 13:04:52.175 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:52.176 15 INFO migrate.versioning.api [-] 25 -> 26... 
+2015-04-23 13:04:52.231 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:52.231 15 INFO migrate.versioning.api [-] 26 -> 27... 
+2015-04-23 13:04:52.321 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:52.322 15 INFO migrate.versioning.api [-] 27 -> 28... 
+2015-04-23 13:04:52.398 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:52.398 15 INFO migrate.versioning.api [-] 28 -> 29... 
+2015-04-23 13:04:52.476 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:52.476 15 INFO migrate.versioning.api [-] 29 -> 30... 
+2015-04-23 13:04:52.480 15 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table tasks
+2015-04-23 13:04:52.909 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:52.910 15 INFO migrate.versioning.api [-] 30 -> 31... 
+2015-04-23 13:04:52.954 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:52.954 15 INFO migrate.versioning.api [-] 31 -> 32... 
+2015-04-23 13:04:52.971 15 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table task_info
+2015-04-23 13:04:53.165 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:53.166 15 INFO migrate.versioning.api [-] 32 -> 33... 
+2015-04-23 13:04:53.420 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:53.421 15 INFO migrate.versioning.api [-] 33 -> 34... 
+2015-04-23 13:04:53.453 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:53.454 15 INFO migrate.versioning.api [-] 34 -> 35... 
+2015-04-23 13:04:53.463 15 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_namespaces
+2015-04-23 13:04:53.697 15 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_objects
+2015-04-23 13:04:53.931 15 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_properties
+2015-04-23 13:04:54.143 15 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_resource_types
+2015-04-23 13:04:54.298 15 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_namespace_resource_types
+2015-04-23 13:04:54.479 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:04:54.479 15 INFO migrate.versioning.api [-] 35 -> 36... 
+2015-04-23 13:04:54.545 15 INFO migrate.versioning.api [-] done
+2015-04-23 13:05:38.026 18 INFO keystonemiddleware.auth_token [-] Starting keystone auth_token middleware
+2015-04-23 13:05:38.026 18 INFO keystonemiddleware.auth_token [-] Using /tmp/keystone-signing-O5UU3d as cache directory for signing certificate
+2015-04-23 13:05:38.027 18 INFO glance.wsgi.server [-] Starting 8 workers
+2015-04-23 13:05:38.029 18 INFO glance.wsgi.server [-] Started child 23
+2015-04-23 13:05:38.029 23 INFO glance.wsgi.server [-] (23) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:05:38.032 18 INFO glance.wsgi.server [-] Started child 24
+2015-04-23 13:05:38.032 24 INFO glance.wsgi.server [-] (24) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:05:38.034 18 INFO glance.wsgi.server [-] Started child 25
+2015-04-23 13:05:38.034 25 INFO glance.wsgi.server [-] (25) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:05:38.036 18 INFO glance.wsgi.server [-] Started child 26
+2015-04-23 13:05:38.037 26 INFO glance.wsgi.server [-] (26) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:05:38.039 18 INFO glance.wsgi.server [-] Started child 27
+2015-04-23 13:05:38.039 27 INFO glance.wsgi.server [-] (27) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:05:38.041 18 INFO glance.wsgi.server [-] Started child 28
+2015-04-23 13:05:38.041 28 INFO glance.wsgi.server [-] (28) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:05:38.044 18 INFO glance.wsgi.server [-] Started child 29
+2015-04-23 13:05:38.044 29 INFO glance.wsgi.server [-] (29) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:05:38.046 18 INFO glance.wsgi.server [-] Started child 30
+2015-04-23 13:05:38.046 30 INFO glance.wsgi.server [-] (30) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:05:45.037 18 INFO glance.wsgi.server [-] Removing dead child 23
+2015-04-23 13:05:45.041 18 INFO glance.wsgi.server [-] Started child 31
+2015-04-23 13:05:45.042 31 INFO glance.wsgi.server [-] (31) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:05:45.043 31 INFO glance.wsgi.server [-] Child 31 exiting normally
+2015-04-23 13:28:19.940 5 INFO keystonemiddleware.auth_token [-] Starting keystone auth_token middleware
+2015-04-23 13:28:19.941 5 INFO keystonemiddleware.auth_token [-] Using /tmp/keystone-signing-xXrcvc as cache directory for signing certificate
+2015-04-23 13:28:19.942 5 INFO glance.wsgi.server [-] Starting 8 workers
+2015-04-23 13:28:19.943 5 INFO glance.wsgi.server [-] Started child 10
+2015-04-23 13:28:19.944 10 INFO glance.wsgi.server [-] (10) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:28:19.946 5 INFO glance.wsgi.server [-] Started child 11
+2015-04-23 13:28:19.946 11 INFO glance.wsgi.server [-] (11) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:28:19.948 5 INFO glance.wsgi.server [-] Started child 12
+2015-04-23 13:28:19.948 12 INFO glance.wsgi.server [-] (12) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:28:19.950 5 INFO glance.wsgi.server [-] Started child 13
+2015-04-23 13:28:19.950 13 INFO glance.wsgi.server [-] (13) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:28:19.953 5 INFO glance.wsgi.server [-] Started child 14
+2015-04-23 13:28:19.953 14 INFO glance.wsgi.server [-] (14) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:28:19.955 5 INFO glance.wsgi.server [-] Started child 15
+2015-04-23 13:28:19.955 15 INFO glance.wsgi.server [-] (15) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:28:19.957 5 INFO glance.wsgi.server [-] Started child 16
+2015-04-23 13:28:19.957 16 INFO glance.wsgi.server [-] (16) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 13:28:19.959 5 INFO glance.wsgi.server [-] Started child 17
+2015-04-23 13:28:19.959 17 INFO glance.wsgi.server [-] (17) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 14:27:45.874 1 INFO keystonemiddleware.auth_token [-] Starting keystone auth_token middleware
+2015-04-23 14:27:45.875 1 INFO keystonemiddleware.auth_token [-] Using /tmp/keystone-signing-8zBl_l as cache directory for signing certificate
+2015-04-23 14:27:45.876 1 INFO glance.wsgi.server [-] Starting 8 workers
+2015-04-23 14:27:45.877 1 INFO glance.wsgi.server [-] Started child 9
+2015-04-23 14:27:45.878 9 INFO glance.wsgi.server [-] (9) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 14:27:45.879 1 INFO glance.wsgi.server [-] Started child 10
+2015-04-23 14:27:45.880 10 INFO glance.wsgi.server [-] (10) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 14:27:45.881 1 INFO glance.wsgi.server [-] Started child 11
+2015-04-23 14:27:45.881 11 INFO glance.wsgi.server [-] (11) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 14:27:45.883 1 INFO glance.wsgi.server [-] Started child 12
+2015-04-23 14:27:45.883 12 INFO glance.wsgi.server [-] (12) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 14:27:45.884 1 INFO glance.wsgi.server [-] Started child 13
+2015-04-23 14:27:45.885 13 INFO glance.wsgi.server [-] (13) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 14:27:45.886 1 INFO glance.wsgi.server [-] Started child 14
+2015-04-23 14:27:45.886 14 INFO glance.wsgi.server [-] (14) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 14:27:45.887 1 INFO glance.wsgi.server [-] Started child 15
+2015-04-23 14:27:45.888 15 INFO glance.wsgi.server [-] (15) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 14:27:45.889 1 INFO glance.wsgi.server [-] Started child 16
+2015-04-23 14:27:45.889 16 INFO glance.wsgi.server [-] (16) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 14:34:44.071 13 INFO glance.wsgi.server [-] 172.17.0.141 - - [23/Apr/2015 14:34:44] "GET / HTTP/1.1" 300 677 0.002760
+2015-04-23 14:46:55.869 13 INFO keystonemiddleware.auth_token [-] Invalid user token - deferring reject downstream
+2015-04-23 14:46:55.871 13 INFO glance.wsgi.server [-] 172.17.0.141 - - [23/Apr/2015 14:46:55] "GET /v1 HTTP/1.1" 401 509 0.003350
+2015-04-23 15:28:24.330 1 INFO glance.wsgi.server [-] Removing dead child 9
+2015-04-23 15:28:24.333 1 INFO glance.wsgi.server [-] Started child 69
+2015-04-23 15:28:24.334 69 INFO glance.wsgi.server [-] (69) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:28:24.336 69 INFO glance.wsgi.server [-] Child 69 exiting normally
+2015-04-23 15:28:25.343 1 INFO keystonemiddleware.auth_token [-] Starting keystone auth_token middleware
+2015-04-23 15:28:25.344 1 INFO keystonemiddleware.auth_token [-] Using /tmp/keystone-signing-I0Ftpo as cache directory for signing certificate
+2015-04-23 15:28:25.345 1 INFO glance.wsgi.server [-] Starting 8 workers
+2015-04-23 15:28:25.346 1 INFO glance.wsgi.server [-] Started child 9
+2015-04-23 15:28:25.346 9 INFO glance.wsgi.server [-] (9) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:28:25.348 1 INFO glance.wsgi.server [-] Started child 10
+2015-04-23 15:28:25.348 10 INFO glance.wsgi.server [-] (10) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:28:25.349 1 INFO glance.wsgi.server [-] Started child 11
+2015-04-23 15:28:25.350 11 INFO glance.wsgi.server [-] (11) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:28:25.351 1 INFO glance.wsgi.server [-] Started child 12
+2015-04-23 15:28:25.352 12 INFO glance.wsgi.server [-] (12) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:28:25.353 1 INFO glance.wsgi.server [-] Started child 13
+2015-04-23 15:28:25.353 13 INFO glance.wsgi.server [-] (13) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:28:25.355 1 INFO glance.wsgi.server [-] Started child 14
+2015-04-23 15:28:25.355 14 INFO glance.wsgi.server [-] (14) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:28:25.356 1 INFO glance.wsgi.server [-] Started child 15
+2015-04-23 15:28:25.357 15 INFO glance.wsgi.server [-] (15) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:28:25.358 1 INFO glance.wsgi.server [-] Started child 16
+2015-04-23 15:28:25.358 16 INFO glance.wsgi.server [-] (16) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:46:23.152 1 INFO glance.wsgi.server [-] Removing dead child 9
+2015-04-23 15:46:23.155 1 INFO glance.wsgi.server [-] Started child 50
+2015-04-23 15:46:23.156 50 INFO glance.wsgi.server [-] (50) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:46:23.158 50 INFO glance.wsgi.server [-] Child 50 exiting normally
+2015-04-23 15:48:47.039 17 INFO keystonemiddleware.auth_token [-] Starting keystone auth_token middleware
+2015-04-23 15:48:47.040 17 INFO keystonemiddleware.auth_token [-] Using /tmp/keystone-signing-1EgRYR as cache directory for signing certificate
+2015-04-23 15:48:47.041 17 INFO glance.wsgi.server [-] Starting 8 workers
+2015-04-23 15:48:47.042 17 INFO glance.wsgi.server [-] Started child 22
+2015-04-23 15:48:47.043 22 INFO glance.wsgi.server [-] (22) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:47.044 17 INFO glance.wsgi.server [-] Started child 23
+2015-04-23 15:48:47.044 23 INFO glance.wsgi.server [-] (23) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:47.046 17 INFO glance.wsgi.server [-] Started child 24
+2015-04-23 15:48:47.046 24 INFO glance.wsgi.server [-] (24) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:47.048 17 INFO glance.wsgi.server [-] Started child 25
+2015-04-23 15:48:47.048 25 INFO glance.wsgi.server [-] (25) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:47.049 17 INFO glance.wsgi.server [-] Started child 26
+2015-04-23 15:48:47.050 26 INFO glance.wsgi.server [-] (26) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:47.051 17 INFO glance.wsgi.server [-] Started child 27
+2015-04-23 15:48:47.052 27 INFO glance.wsgi.server [-] (27) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:47.053 17 INFO glance.wsgi.server [-] Started child 28
+2015-04-23 15:48:47.053 28 INFO glance.wsgi.server [-] (28) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:47.055 17 INFO glance.wsgi.server [-] Started child 29
+2015-04-23 15:48:47.055 29 INFO glance.wsgi.server [-] (29) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:49.356 17 INFO glance.wsgi.server [-] Removing dead child 22
+2015-04-23 15:48:49.359 17 INFO glance.wsgi.server [-] Started child 30
+2015-04-23 15:48:49.360 30 INFO glance.wsgi.server [-] (30) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:49.361 30 INFO glance.wsgi.server [-] Child 30 exiting normally
+2015-04-23 15:48:54.070 31 INFO keystonemiddleware.auth_token [-] Starting keystone auth_token middleware
+2015-04-23 15:48:54.070 31 INFO keystonemiddleware.auth_token [-] Using /tmp/keystone-signing-Fq0572 as cache directory for signing certificate
+2015-04-23 15:48:54.071 31 INFO glance.wsgi.server [-] Starting 8 workers
+2015-04-23 15:48:54.073 31 INFO glance.wsgi.server [-] Started child 36
+2015-04-23 15:48:54.073 36 INFO glance.wsgi.server [-] (36) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:54.075 31 INFO glance.wsgi.server [-] Started child 37
+2015-04-23 15:48:54.075 37 INFO glance.wsgi.server [-] (37) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:54.077 31 INFO glance.wsgi.server [-] Started child 38
+2015-04-23 15:48:54.077 38 INFO glance.wsgi.server [-] (38) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:54.078 31 INFO glance.wsgi.server [-] Started child 39
+2015-04-23 15:48:54.079 39 INFO glance.wsgi.server [-] (39) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:54.080 31 INFO glance.wsgi.server [-] Started child 40
+2015-04-23 15:48:54.081 40 INFO glance.wsgi.server [-] (40) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:54.082 31 INFO glance.wsgi.server [-] Started child 41
+2015-04-23 15:48:54.082 41 INFO glance.wsgi.server [-] (41) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:54.084 31 INFO glance.wsgi.server [-] Started child 42
+2015-04-23 15:48:54.084 42 INFO glance.wsgi.server [-] (42) wsgi starting up on http://0.0.0.0:9292/
+2015-04-23 15:48:54.086 31 INFO glance.wsgi.server [-] Started child 43
+2015-04-23 15:48:54.086 43 INFO glance.wsgi.server [-] (43) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 14:30:26.306 19 INFO migrate.versioning.api [-] 0 -> 1... 
+2015-04-25 14:30:26.311 19 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table images
+2015-04-25 14:30:26.550 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:26.551 19 INFO migrate.versioning.api [-] 1 -> 2... 
+2015-04-25 14:30:26.561 19 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table image_properties
+2015-04-25 14:30:26.895 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:26.896 19 INFO migrate.versioning.api [-] 2 -> 3... 
+2015-04-25 14:30:26.950 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:26.950 19 INFO migrate.versioning.api [-] 3 -> 4... 
+2015-04-25 14:30:26.972 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:26.972 19 INFO migrate.versioning.api [-] 4 -> 5... 
+2015-04-25 14:30:27.184 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:27.185 19 INFO migrate.versioning.api [-] 5 -> 6... 
+2015-04-25 14:30:27.229 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:27.229 19 INFO migrate.versioning.api [-] 6 -> 7... 
+2015-04-25 14:30:27.249 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:27.249 19 INFO migrate.versioning.api [-] 7 -> 8... 
+2015-04-25 14:30:27.256 19 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table image_members
+2015-04-25 14:30:27.566 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:27.567 19 INFO migrate.versioning.api [-] 8 -> 9... 
+2015-04-25 14:30:27.634 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:27.634 19 INFO migrate.versioning.api [-] 9 -> 10... 
+2015-04-25 14:30:27.654 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:27.654 19 INFO migrate.versioning.api [-] 10 -> 11... 
+2015-04-25 14:30:27.700 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:27.701 19 INFO migrate.versioning.api [-] 11 -> 12... 
+2015-04-25 14:30:28.546 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:28.547 19 INFO migrate.versioning.api [-] 12 -> 13... 
+2015-04-25 14:30:28.589 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:28.590 19 INFO migrate.versioning.api [-] 13 -> 14... 
+2015-04-25 14:30:28.613 19 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table image_tags
+2015-04-25 14:30:28.802 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:28.803 19 INFO migrate.versioning.api [-] 14 -> 15... 
+2015-04-25 14:30:28.834 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:28.834 19 INFO migrate.versioning.api [-] 15 -> 16... 
+2015-04-25 14:30:28.890 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:28.890 19 INFO migrate.versioning.api [-] 16 -> 17... 
+2015-04-25 14:30:28.937 19 INFO 017_quote_encrypted_swift_credentials [-] 'metadata_encryption_key' was not specified in the config file or a config file was not specified. This means that this migration is a NOOP.
+2015-04-25 14:30:28.945 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:28.946 19 INFO migrate.versioning.api [-] 17 -> 18... 
+2015-04-25 14:30:28.970 19 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table image_locations
+2015-04-25 14:30:29.213 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:29.214 19 INFO migrate.versioning.api [-] 18 -> 19... 
+2015-04-25 14:30:29.268 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:29.268 19 INFO migrate.versioning.api [-] 19 -> 20... 
+2015-04-25 14:30:29.302 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:29.303 19 INFO migrate.versioning.api [-] 20 -> 21... 
+2015-04-25 14:30:29.312 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:29.312 19 INFO migrate.versioning.api [-] 21 -> 22... 
+2015-04-25 14:30:29.425 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:29.425 19 INFO migrate.versioning.api [-] 22 -> 23... 
+2015-04-25 14:30:29.435 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:29.435 19 INFO migrate.versioning.api [-] 23 -> 24... 
+2015-04-25 14:30:29.446 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:29.447 19 INFO migrate.versioning.api [-] 24 -> 25... 
+2015-04-25 14:30:29.458 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:29.459 19 INFO migrate.versioning.api [-] 25 -> 26... 
+2015-04-25 14:30:29.513 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:29.514 19 INFO migrate.versioning.api [-] 26 -> 27... 
+2015-04-25 14:30:29.602 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:29.603 19 INFO migrate.versioning.api [-] 27 -> 28... 
+2015-04-25 14:30:29.691 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:29.692 19 INFO migrate.versioning.api [-] 28 -> 29... 
+2015-04-25 14:30:29.769 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:29.770 19 INFO migrate.versioning.api [-] 29 -> 30... 
+2015-04-25 14:30:29.775 19 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table tasks
+2015-04-25 14:30:30.202 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:30.203 19 INFO migrate.versioning.api [-] 30 -> 31... 
+2015-04-25 14:30:30.247 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:30.247 19 INFO migrate.versioning.api [-] 31 -> 32... 
+2015-04-25 14:30:30.266 19 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table task_info
+2015-04-25 14:30:30.437 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:30.437 19 INFO migrate.versioning.api [-] 32 -> 33... 
+2015-04-25 14:30:30.703 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:30.703 19 INFO migrate.versioning.api [-] 33 -> 34... 
+2015-04-25 14:30:30.748 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:30.748 19 INFO migrate.versioning.api [-] 34 -> 35... 
+2015-04-25 14:30:30.756 19 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_namespaces
+2015-04-25 14:30:30.967 19 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_objects
+2015-04-25 14:30:31.180 19 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_properties
+2015-04-25 14:30:31.425 19 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_resource_types
+2015-04-25 14:30:31.649 19 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_namespace_resource_types
+2015-04-25 14:30:31.840 19 INFO migrate.versioning.api [-] done
+2015-04-25 14:30:31.841 19 INFO migrate.versioning.api [-] 35 -> 36... 
+2015-04-25 14:30:31.917 19 INFO migrate.versioning.api [-] done
+2015-04-25 15:30:27.719 1 INFO keystonemiddleware.auth_token [-] Starting keystone auth_token middleware
+2015-04-25 15:30:27.720 1 INFO keystonemiddleware.auth_token [-] Using /tmp/keystone-signing-LV_dPZ as cache directory for signing certificate
+2015-04-25 15:30:27.721 1 INFO glance.wsgi.server [-] Starting 8 workers
+2015-04-25 15:30:27.722 1 INFO glance.wsgi.server [-] Started child 9
+2015-04-25 15:30:27.722 9 INFO glance.wsgi.server [-] (9) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:30:27.724 1 INFO glance.wsgi.server [-] Started child 10
+2015-04-25 15:30:27.724 10 INFO glance.wsgi.server [-] (10) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:30:27.725 1 INFO glance.wsgi.server [-] Started child 11
+2015-04-25 15:30:27.725 11 INFO glance.wsgi.server [-] (11) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:30:27.727 1 INFO glance.wsgi.server [-] Started child 12
+2015-04-25 15:30:27.727 12 INFO glance.wsgi.server [-] (12) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:30:27.728 1 INFO glance.wsgi.server [-] Started child 13
+2015-04-25 15:30:27.729 13 INFO glance.wsgi.server [-] (13) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:30:27.730 1 INFO glance.wsgi.server [-] Started child 14
+2015-04-25 15:30:27.730 14 INFO glance.wsgi.server [-] (14) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:30:27.731 1 INFO glance.wsgi.server [-] Started child 15
+2015-04-25 15:30:27.732 15 INFO glance.wsgi.server [-] (15) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:30:27.733 1 INFO glance.wsgi.server [-] Started child 16
+2015-04-25 15:30:27.733 16 INFO glance.wsgi.server [-] (16) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:33:02.372 11 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:33:02.386 11 INFO keystonemiddleware.auth_token [-] Auth Token confirmed use of v2.0 apis
+2015-04-25 15:33:02.388 11 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:33:02.442 11 WARNING keystonemiddleware.auth_token [-] Unexpected response from keystone service: {u'error': {u'message': u'Could not find project: service (Disable debug mode to suppress these details.)', u'code': 401, u'title': u'Unauthorized'}}
+2015-04-25 15:33:02.443 11 WARNING keystonemiddleware.auth_token [-] Authorization failed for token
+2015-04-25 15:33:02.443 11 INFO keystonemiddleware.auth_token [-] Invalid user token - deferring reject downstream
+2015-04-25 15:33:02.444 11 INFO glance.wsgi.server [-] 172.17.0.221 - - [25/Apr/2015 15:33:02] "GET /v1/images/detail?sort_key=name&sort_dir=asc&limit=20 HTTP/1.1" 401 485 0.085001
+2015-04-25 15:35:46.702 13 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:35:46.717 13 INFO keystonemiddleware.auth_token [-] Auth Token confirmed use of v2.0 apis
+2015-04-25 15:35:46.719 13 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:35:46.772 13 WARNING keystonemiddleware.auth_token [-] Unexpected response from keystone service: {u'error': {u'message': u'Could not find project: service (Disable debug mode to suppress these details.)', u'code': 401, u'title': u'Unauthorized'}}
+2015-04-25 15:35:46.773 13 WARNING keystonemiddleware.auth_token [-] Authorization failed for token
+2015-04-25 15:35:46.773 13 INFO keystonemiddleware.auth_token [-] Invalid user token - deferring reject downstream
+2015-04-25 15:35:46.774 13 INFO glance.wsgi.server [-] 172.17.0.221 - - [25/Apr/2015 15:35:46] "GET /v1/images/detail?sort_key=name&sort_dir=asc&limit=20 HTTP/1.1" 401 485 0.081930
+2015-04-25 15:38:49.362 16 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:38:49.375 16 INFO keystonemiddleware.auth_token [-] Auth Token confirmed use of v2.0 apis
+2015-04-25 15:38:49.376 16 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:38:49.417 16 WARNING keystonemiddleware.auth_token [-] Unexpected response from keystone service: {u'error': {u'message': u'Could not find project: service (Disable debug mode to suppress these details.)', u'code': 401, u'title': u'Unauthorized'}}
+2015-04-25 15:38:49.417 16 WARNING keystonemiddleware.auth_token [-] Authorization failed for token
+2015-04-25 15:38:49.418 16 INFO keystonemiddleware.auth_token [-] Invalid user token - deferring reject downstream
+2015-04-25 15:38:49.420 16 INFO glance.wsgi.server [-] 172.17.0.221 - - [25/Apr/2015 15:38:49] "GET /v1/images/detail?sort_key=name&sort_dir=asc&limit=20 HTTP/1.1" 401 485 0.074221
+2015-04-25 15:41:53.590 10 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:41:53.604 10 INFO keystonemiddleware.auth_token [-] Auth Token confirmed use of v2.0 apis
+2015-04-25 15:41:53.606 10 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:41:53.659 10 WARNING keystonemiddleware.auth_token [-] Unexpected response from keystone service: {u'error': {u'message': u'Could not find project: service (Disable debug mode to suppress these details.)', u'code': 401, u'title': u'Unauthorized'}}
+2015-04-25 15:41:53.659 10 WARNING keystonemiddleware.auth_token [-] Authorization failed for token
+2015-04-25 15:41:53.659 10 INFO keystonemiddleware.auth_token [-] Invalid user token - deferring reject downstream
+2015-04-25 15:41:53.661 10 INFO glance.wsgi.server [-] 172.17.0.221 - - [25/Apr/2015 15:41:53] "GET /v1/images/detail?sort_key=name&sort_dir=asc&limit=20 HTTP/1.1" 401 485 0.082495
+2015-04-25 15:43:07.831 11 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:43:07.879 11 WARNING keystonemiddleware.auth_token [-] Unexpected response from keystone service: {u'error': {u'message': u'Could not find project: service (Disable debug mode to suppress these details.)', u'code': 401, u'title': u'Unauthorized'}}
+2015-04-25 15:43:07.879 11 WARNING keystonemiddleware.auth_token [-] Authorization failed for token
+2015-04-25 15:43:07.880 11 INFO keystonemiddleware.auth_token [-] Invalid user token - deferring reject downstream
+2015-04-25 15:43:07.881 11 INFO glance.wsgi.server [-] 172.17.0.221 - - [25/Apr/2015 15:43:07] "GET /v1/images/detail?sort_key=name&sort_dir=asc&limit=20 HTTP/1.1" 401 485 0.052455
+2015-04-25 15:56:25.559 1 INFO glance.wsgi.server [-] Removing dead child 9
+2015-04-25 15:56:25.562 1 INFO glance.wsgi.server [-] Started child 128
+2015-04-25 15:56:25.563 128 INFO glance.wsgi.server [-] (128) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:56:25.565 128 INFO glance.wsgi.server [-] Child 128 exiting normally
+2015-04-25 15:57:40.131 1 INFO keystonemiddleware.auth_token [-] Starting keystone auth_token middleware
+2015-04-25 15:57:40.132 1 INFO keystonemiddleware.auth_token [-] Using /tmp/keystone-signing-KgHNlh as cache directory for signing certificate
+2015-04-25 15:57:40.133 1 INFO glance.wsgi.server [-] Starting 8 workers
+2015-04-25 15:57:40.134 1 INFO glance.wsgi.server [-] Started child 9
+2015-04-25 15:57:40.135 9 INFO glance.wsgi.server [-] (9) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:57:40.136 1 INFO glance.wsgi.server [-] Started child 10
+2015-04-25 15:57:40.136 10 INFO glance.wsgi.server [-] (10) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:57:40.137 1 INFO glance.wsgi.server [-] Started child 11
+2015-04-25 15:57:40.138 11 INFO glance.wsgi.server [-] (11) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:57:40.139 1 INFO glance.wsgi.server [-] Started child 12
+2015-04-25 15:57:40.139 12 INFO glance.wsgi.server [-] (12) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:57:40.141 1 INFO glance.wsgi.server [-] Started child 13
+2015-04-25 15:57:40.141 13 INFO glance.wsgi.server [-] (13) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:57:40.142 1 INFO glance.wsgi.server [-] Started child 14
+2015-04-25 15:57:40.143 14 INFO glance.wsgi.server [-] (14) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:57:40.144 1 INFO glance.wsgi.server [-] Started child 15
+2015-04-25 15:57:40.144 15 INFO glance.wsgi.server [-] (15) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:57:40.146 1 INFO glance.wsgi.server [-] Started child 16
+2015-04-25 15:57:40.146 16 INFO glance.wsgi.server [-] (16) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:57:55.939 13 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:57:55.953 13 INFO keystonemiddleware.auth_token [-] Auth Token confirmed use of v2.0 apis
+2015-04-25 15:57:55.954 13 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:57:56.067 13 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:57:56.628 13 INFO glance.registry.client.v1.client [9e038867-a030-4254-a3f9-399aac5b0f91 335743fd7eb24693b94658713890a1c4 4b5f1c61c68447a9ab1d34ee12ea6d6a - - -] Registry client request GET /images/detail raised ClientConnectionError
+2015-04-25 15:57:56.634 13 INFO glance.wsgi.server [9e038867-a030-4254-a3f9-399aac5b0f91 335743fd7eb24693b94658713890a1c4 4b5f1c61c68447a9ab1d34ee12ea6d6a - - -] Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/eventlet/wsgi.py", line 384, in handle_one_response
+    result = self.application(self.environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/webob/dec.py", line 130, in __call__
+    resp = self.call_func(req, *args, **self.kwargs)
+  File "/usr/lib/python2.7/dist-packages/webob/dec.py", line 195, in call_func
+    return self.func(req, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/glance/common/wsgi.py", line 394, in __call__
+    response = req.get_response(self.application)
+  File "/usr/lib/python2.7/dist-packages/webob/request.py", line 1320, in send
+    application, catch_exc_info=False)
+  File "/usr/lib/python2.7/dist-packages/webob/request.py", line 1284, in call_application
+    app_iter = application(self.environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/webob/dec.py", line 130, in __call__
+    resp = self.call_func(req, *args, **self.kwargs)
+  File "/usr/lib/python2.7/dist-packages/webob/dec.py", line 195, in call_func
+    return self.func(req, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/osprofiler/web.py", line 99, in __call__
+    return request.get_response(self.application)
+  File "/usr/lib/python2.7/dist-packages/webob/request.py", line 1320, in send
+    application, catch_exc_info=False)
+  File "/usr/lib/python2.7/dist-packages/webob/request.py", line 1284, in call_application
+    app_iter = application(self.environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/keystonemiddleware/auth_token.py", line 661, in __call__
+    return self._app(env, start_response)
+  File "/usr/lib/python2.7/dist-packages/webob/dec.py", line 130, in __call__
+    resp = self.call_func(req, *args, **self.kwargs)
+  File "/usr/lib/python2.7/dist-packages/webob/dec.py", line 195, in call_func
+    return self.func(req, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/glance/common/wsgi.py", line 394, in __call__
+    response = req.get_response(self.application)
+  File "/usr/lib/python2.7/dist-packages/webob/request.py", line 1320, in send
+    application, catch_exc_info=False)
+  File "/usr/lib/python2.7/dist-packages/webob/request.py", line 1284, in call_application
+    app_iter = application(self.environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/paste/urlmap.py", line 206, in __call__
+    return app(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/webob/dec.py", line 144, in __call__
+    return resp(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/routes/middleware.py", line 131, in __call__
+    response = self.app(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/webob/dec.py", line 144, in __call__
+    return resp(environ, start_response)
+  File "/usr/lib/python2.7/dist-packages/webob/dec.py", line 130, in __call__
+    resp = self.call_func(req, *args, **self.kwargs)
+  File "/usr/lib/python2.7/dist-packages/webob/dec.py", line 195, in call_func
+    return self.func(req, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/glance/common/wsgi.py", line 683, in __call__
+    request, **action_args)
+  File "/usr/lib/python2.7/dist-packages/glance/common/wsgi.py", line 707, in dispatch
+    return method(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/glance/api/v1/images.py", line 347, in detail
+    images = registry.get_images_detail(req.context, **params)
+  File "/usr/lib/python2.7/dist-packages/glance/registry/client/v1/api.py", line 150, in get_images_detail
+    return c.get_images_detailed(**kwargs)
+  File "/usr/lib/python2.7/dist-packages/glance/registry/client/v1/client.py", line 144, in get_images_detailed
+    res = self.do_request("GET", "/images/detail", params=params)
+  File "/usr/lib/python2.7/dist-packages/glance/registry/client/v1/client.py", line 130, in do_request
+    'exc_name': exc_name})
+  File "/usr/lib/python2.7/dist-packages/glance/openstack/common/excutils.py", line 82, in __exit__
+    six.reraise(self.type_, self.value, self.tb)
+  File "/usr/lib/python2.7/dist-packages/glance/registry/client/v1/client.py", line 115, in do_request
+    **kwargs)
+  File "/usr/lib/python2.7/dist-packages/glance/common/client.py", line 68, in wrapped
+    return func(self, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/glance/common/client.py", line 373, in do_request
+    headers=copy.deepcopy(headers))
+  File "/usr/lib/python2.7/dist-packages/glance/common/client.py", line 85, in wrapped
+    return func(self, method, url, body, headers)
+  File "/usr/lib/python2.7/dist-packages/glance/common/client.py", line 539, in _do_request
+    raise exception.ClientConnectionError(e)
+ClientConnectionError: [Errno -2] Name or service not known
+2015-04-25 15:57:56.635 13 INFO glance.wsgi.server [9e038867-a030-4254-a3f9-399aac5b0f91 335743fd7eb24693b94658713890a1c4 4b5f1c61c68447a9ab1d34ee12ea6d6a - - -] 172.17.0.224 - - [25/Apr/2015 15:57:56] "GET /v1/images/detail?sort_key=name&sort_dir=asc&limit=20 HTTP/1.1" 500 139 0.710049
+2015-04-25 15:58:42.939 1 INFO glance.wsgi.server [-] Removing dead child 9
+2015-04-25 15:58:42.941 1 INFO glance.wsgi.server [-] Started child 35
+2015-04-25 15:58:42.942 35 INFO glance.wsgi.server [-] (35) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:58:42.943 35 INFO glance.wsgi.server [-] Child 35 exiting normally
+2015-04-25 15:59:20.013 1 INFO keystonemiddleware.auth_token [-] Starting keystone auth_token middleware
+2015-04-25 15:59:20.014 1 INFO keystonemiddleware.auth_token [-] Using /tmp/keystone-signing-8UHtxW as cache directory for signing certificate
+2015-04-25 15:59:20.015 1 INFO glance.wsgi.server [-] Starting 8 workers
+2015-04-25 15:59:20.016 1 INFO glance.wsgi.server [-] Started child 9
+2015-04-25 15:59:20.017 9 INFO glance.wsgi.server [-] (9) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:59:20.018 1 INFO glance.wsgi.server [-] Started child 10
+2015-04-25 15:59:20.018 10 INFO glance.wsgi.server [-] (10) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:59:20.020 1 INFO glance.wsgi.server [-] Started child 11
+2015-04-25 15:59:20.020 11 INFO glance.wsgi.server [-] (11) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:59:20.021 1 INFO glance.wsgi.server [-] Started child 12
+2015-04-25 15:59:20.021 12 INFO glance.wsgi.server [-] (12) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:59:20.023 1 INFO glance.wsgi.server [-] Started child 13
+2015-04-25 15:59:20.023 13 INFO glance.wsgi.server [-] (13) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:59:20.024 1 INFO glance.wsgi.server [-] Started child 14
+2015-04-25 15:59:20.025 14 INFO glance.wsgi.server [-] (14) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:59:20.026 1 INFO glance.wsgi.server [-] Started child 15
+2015-04-25 15:59:20.026 15 INFO glance.wsgi.server [-] (15) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:59:20.027 1 INFO glance.wsgi.server [-] Started child 16
+2015-04-25 15:59:20.028 16 INFO glance.wsgi.server [-] (16) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 15:59:57.379 13 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:59:57.392 13 INFO keystonemiddleware.auth_token [-] Auth Token confirmed use of v2.0 apis
+2015-04-25 15:59:57.393 13 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:59:57.487 13 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 15:59:57.727 13 INFO glance.wsgi.server [13144bdd-5ae0-4dc9-a345-029b4d54078a 335743fd7eb24693b94658713890a1c4 4b5f1c61c68447a9ab1d34ee12ea6d6a - - -] 172.17.0.226 - - [25/Apr/2015 15:59:57] "GET /v1/images/detail?sort_key=name&sort_dir=asc&limit=20 HTTP/1.1" 200 203 0.362038
+2015-04-25 16:12:37.690 12 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 16:12:37.704 12 INFO keystonemiddleware.auth_token [-] Auth Token confirmed use of v2.0 apis
+2015-04-25 16:12:37.705 12 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 16:12:37.802 12 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 16:12:37.851 12 INFO glance.wsgi.server [6a88a048-4ff1-4550-8915-f976bb71013a 335743fd7eb24693b94658713890a1c4 4b5f1c61c68447a9ab1d34ee12ea6d6a - - -] 172.17.0.226 - - [25/Apr/2015 16:12:37] "POST /v1/images HTTP/1.1" 400 360 0.171255
+2015-04-25 16:12:49.750 16 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 16:12:49.761 16 INFO keystonemiddleware.auth_token [-] Auth Token confirmed use of v2.0 apis
+2015-04-25 16:12:49.763 16 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 16:12:49.844 16 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-25 16:12:50.252 16 INFO glance.api.v1.images [50b4c678-af36-4888-bddf-d5b47a687e6d 335743fd7eb24693b94658713890a1c4 4b5f1c61c68447a9ab1d34ee12ea6d6a - - -] Uploaded data of image 4b4317ce-356c-4038-9825-8152a5325b80 from request payload successfully.
+2015-04-25 16:12:50.729 16 INFO glance.wsgi.server [50b4c678-af36-4888-bddf-d5b47a687e6d 335743fd7eb24693b94658713890a1c4 4b5f1c61c68447a9ab1d34ee12ea6d6a - - -] 172.17.0.226 - - [25/Apr/2015 16:12:50] "POST /v1/images HTTP/1.1" 201 802 0.991964
+2015-04-25 16:13:07.695 12 INFO urllib3.connectionpool [6a88a048-4ff1-4550-8915-f976bb71013a 335743fd7eb24693b94658713890a1c4 4b5f1c61c68447a9ab1d34ee12ea6d6a - - -] Starting new HTTP connection (1): keystone
+2015-04-25 16:13:07.933 12 INFO glance.wsgi.server [6a88a048-4ff1-4550-8915-f976bb71013a 335743fd7eb24693b94658713890a1c4 4b5f1c61c68447a9ab1d34ee12ea6d6a - - -] 172.17.0.226 - - [25/Apr/2015 16:13:07] "GET /v1/images/detail?sort_key=name&sort_dir=asc&limit=20 HTTP/1.1" 200 698 0.240285
+2015-04-25 16:13:34.035 1 INFO glance.wsgi.server [-] Removing dead child 9
+2015-04-25 16:13:34.037 1 INFO glance.wsgi.server [-] Started child 68
+2015-04-25 16:13:34.037 68 INFO glance.wsgi.server [-] (68) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 16:13:34.039 68 INFO glance.wsgi.server [-] Child 68 exiting normally
+2015-04-25 16:13:43.427 1 INFO keystonemiddleware.auth_token [-] Starting keystone auth_token middleware
+2015-04-25 16:13:43.427 1 INFO keystonemiddleware.auth_token [-] Using /tmp/keystone-signing-Fsa8Ga as cache directory for signing certificate
+2015-04-25 16:13:43.428 1 INFO glance.wsgi.server [-] Starting 8 workers
+2015-04-25 16:13:43.430 1 INFO glance.wsgi.server [-] Started child 9
+2015-04-25 16:13:43.430 9 INFO glance.wsgi.server [-] (9) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 16:13:43.431 1 INFO glance.wsgi.server [-] Started child 10
+2015-04-25 16:13:43.432 10 INFO glance.wsgi.server [-] (10) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 16:13:43.433 1 INFO glance.wsgi.server [-] Started child 11
+2015-04-25 16:13:43.433 11 INFO glance.wsgi.server [-] (11) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 16:13:43.435 1 INFO glance.wsgi.server [-] Started child 12
+2015-04-25 16:13:43.435 12 INFO glance.wsgi.server [-] (12) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 16:13:43.436 1 INFO glance.wsgi.server [-] Started child 13
+2015-04-25 16:13:43.437 13 INFO glance.wsgi.server [-] (13) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 16:13:43.438 1 INFO glance.wsgi.server [-] Started child 14
+2015-04-25 16:13:43.438 14 INFO glance.wsgi.server [-] (14) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 16:13:43.440 1 INFO glance.wsgi.server [-] Started child 15
+2015-04-25 16:13:43.440 15 INFO glance.wsgi.server [-] (15) wsgi starting up on http://0.0.0.0:9292/
+2015-04-25 16:13:43.441 1 INFO glance.wsgi.server [-] Started child 16
+2015-04-25 16:13:43.442 16 INFO glance.wsgi.server [-] (16) wsgi starting up on http://0.0.0.0:9292/
+2015-04-29 14:23:06.525 12 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-29 14:23:06.539 12 INFO keystonemiddleware.auth_token [-] Auth Token confirmed use of v2.0 apis
+2015-04-29 14:23:06.540 12 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-29 14:23:06.631 12 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-29 14:23:06.902 12 INFO glance.wsgi.server [eb5d4511-1ec1-472a-9ce5-9df5d03714b9 335743fd7eb24693b94658713890a1c4 4b5f1c61c68447a9ab1d34ee12ea6d6a - - -] 172.17.0.240 - - [29/Apr/2015 14:23:06] "GET /v1/images/detail?sort_key=name&sort_dir=asc&limit=20 HTTP/1.1" 200 698 0.389896
+2015-04-30 02:14:44.503 1 INFO glance.wsgi.server [-] Removing dead child 9
+2015-04-30 02:14:44.508 17 INFO glance.wsgi.server [-] (17) wsgi starting up on http://0.0.0.0:9292/
+2015-04-30 02:14:44.511 1 INFO glance.wsgi.server [-] Started child 17
+2015-04-30 02:14:44.513 17 INFO glance.wsgi.server [-] Child 17 exiting normally
+2015-04-30 06:29:50.028 1 INFO keystonemiddleware.auth_token [-] Starting keystone auth_token middleware
+2015-04-30 06:29:50.029 1 INFO keystonemiddleware.auth_token [-] Using /tmp/keystone-signing-iqUHa2 as cache directory for signing certificate
+2015-04-30 06:29:50.030 1 INFO glance.wsgi.server [-] Starting 8 workers
+2015-04-30 06:29:50.031 1 INFO glance.wsgi.server [-] Started child 9
+2015-04-30 06:29:50.032 9 INFO glance.wsgi.server [-] (9) wsgi starting up on http://0.0.0.0:9292/
+2015-04-30 06:29:50.033 1 INFO glance.wsgi.server [-] Started child 10
+2015-04-30 06:29:50.033 10 INFO glance.wsgi.server [-] (10) wsgi starting up on http://0.0.0.0:9292/
+2015-04-30 06:29:50.034 1 INFO glance.wsgi.server [-] Started child 11
+2015-04-30 06:29:50.035 11 INFO glance.wsgi.server [-] (11) wsgi starting up on http://0.0.0.0:9292/
+2015-04-30 06:29:50.036 1 INFO glance.wsgi.server [-] Started child 12
+2015-04-30 06:29:50.036 12 INFO glance.wsgi.server [-] (12) wsgi starting up on http://0.0.0.0:9292/
+2015-04-30 06:29:50.037 1 INFO glance.wsgi.server [-] Started child 13
+2015-04-30 06:29:50.038 13 INFO glance.wsgi.server [-] (13) wsgi starting up on http://0.0.0.0:9292/
+2015-04-30 06:29:50.039 1 INFO glance.wsgi.server [-] Started child 14
+2015-04-30 06:29:50.039 14 INFO glance.wsgi.server [-] (14) wsgi starting up on http://0.0.0.0:9292/
+2015-04-30 06:29:50.041 1 INFO glance.wsgi.server [-] Started child 15
+2015-04-30 06:29:50.041 15 INFO glance.wsgi.server [-] (15) wsgi starting up on http://0.0.0.0:9292/
+2015-04-30 06:29:50.042 1 INFO glance.wsgi.server [-] Started child 16
+2015-04-30 06:29:50.042 16 INFO glance.wsgi.server [-] (16) wsgi starting up on http://0.0.0.0:9292/
+2015-04-30 06:58:20.417 12 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-30 06:58:20.429 12 INFO keystonemiddleware.auth_token [-] Auth Token confirmed use of v2.0 apis
+2015-04-30 06:58:20.430 12 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-30 06:58:20.656 12 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-30 06:58:21.258 12 INFO glance.wsgi.server [52ce14fc-4efe-4c8f-a5d0-27e921d7f77b 335743fd7eb24693b94658713890a1c4 4b5f1c61c68447a9ab1d34ee12ea6d6a - - -] 172.17.0.11 - - [30/Apr/2015 06:58:21] "GET /v1/images/detail?sort_key=name&sort_dir=asc&limit=20 HTTP/1.1" 200 698 0.849045
+2015-04-30 07:43:27.985 15 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-30 07:43:28.003 15 INFO keystonemiddleware.auth_token [-] Auth Token confirmed use of v2.0 apis
+2015-04-30 07:43:28.004 15 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-30 07:43:28.219 15 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): keystone
+2015-04-30 07:43:28.616 15 INFO glance.wsgi.server [85580fb0-0453-4da5-b1fb-aa41a4b96ef8 335743fd7eb24693b94658713890a1c4 4b5f1c61c68447a9ab1d34ee12ea6d6a - - -] 172.17.0.11 - - [30/Apr/2015 07:43:28] "GET /v1/images/detail?sort_key=name&sort_dir=asc&limit=20 HTTP/1.1" 200 698 0.640670
+2015-05-17 10:37:11.976 1 INFO glance.wsgi.server [-] Removing dead child 9
+2015-05-17 10:37:11.980 1 INFO glance.wsgi.server [-] Started child 17
+2015-05-17 10:37:11.980 17 INFO glance.wsgi.server [-] (17) wsgi starting up on http://0.0.0.0:9292/
+2015-05-17 10:37:11.981 17 INFO glance.wsgi.server [-] Child 17 exiting normally
