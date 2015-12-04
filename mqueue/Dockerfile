@@ -11,3 +11,6 @@ ENV REFRESHED_AT 2015-04-30
 # But, docker mount volume as owner of root each time when start a container
 #VOLUME ["/var/log/rabbitmq"]
 #RUN ["chown", "-R", "rabbitmq:rabbitmq", "/var/log/rabbitmq"]
+USER rabbitmq
+RUN /usr/lib/rabbitmq/bin/rabbitmqctl add_user openstack rabbitpasswd
+#RUN rabbitmqctl set_permissions openstack ".*" ".*" ".*"

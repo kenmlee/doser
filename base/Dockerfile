@@ -3,11 +3,11 @@
 FROM ubuntu:14.04.2
 MAINTAINER Ken Lee <kenmlee@163.com>
 
-ENV REFRESHED_AT 2015-04-23
+ENV REFRESHED_AT 2015-05-17
 
 RUN apt-get -qq update && apt-get install -y ubuntu-cloud-keyring
 RUN echo "deb http://ubuntu-cloud.archive.canonical.com/ubuntu" \
-   "trusty-updates/juno main"  > /etc/apt/sources.list.d/cloudarchive-juno.list
+   "trusty-updates/kilo main"  > /etc/apt/sources.list.d/cloudarchive-kilo.list
 
 RUN apt-get -qq update && apt-get -y dist-upgrade
 

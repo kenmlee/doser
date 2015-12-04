@@ -2,8 +2,9 @@
 
 OPENSTACK_MQ=os-mq
 RABBITMQ_NODENAME=rabbit
-RABBITMQ_USER=guest
-RABBITMQ_PASS=guest
+RABBITMQ_USER=openstack
+RABBITMQ_PASS=rabbitmqpasswd
+RABBITMQ_CTL=/usr/lib/rabbitmq/bin/rabbitmqctl
 
 RABBITMQ_LOG=~/openstack/mqueue/log
 
